@@ -1,0 +1,11 @@
+Name,ISIN,type,Ticker,DataSourcesUsed,YearReturn_2020,YearReturn_2021,YearReturn_2022,YearReturn_2023,YearReturn_2024,Avg5YReturn,VolatilityAnnualized,Notes
+Multipartner Konwave Transition Metals,LU1022033721,FUND,0P000133OC.F,YahooChart,,,-0.185895,-0.130784,0.092235,-0.074815,0.290175,StooqHistoryMissing
+MFS Contrarian Value Fund,LU1985812830,FUND,0P0001I8N7.F,YahooChart,,,0.110352,0.195068,0.109595,0.138338,0.145814,StooqHistoryMissing
+iShares MSCI World,IE00B4L5Y983,ETF,IWDA.L,YahooChart,0.154150,0.228591,-0.184876,0.246744,0.203266,0.129575,0.157302,StooqHistoryMissing
+iShares STOXX Europe 600,DE0002635307,ETF,EXSA.DE,YahooChart,-0.042666,0.217561,-0.129981,0.110134,0.056454,0.042300,0.145955,StooqHistoryMissing
+Bakersteel Global Funds Precious Metals,LU0357130854,FUND,LU0357130854.SG,,,,,,,,,NO_DATA;YahooHistoryMissing;StooqHistoryMissing
+iShares MSCI China,IE00BJ5JPG56,ETF,IE00BJ5JPG56.SG,,,,,,,,,NO_DATA;YahooHistoryMissing;StooqHistoryMissing
+Squad Gallo Europa,DE000A2DMU74,FUND,C9D9.MU,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Structured Solutions Next Generation Resources Fund Fonds,LU1858159434,FUND,0P0001RTYY.F,YahooChart,,,,,-0.182686,-0.182686,0.264339,StooqHistoryMissing
+Redwheel Next Gen Emerg,LU1965309831,FUND,0P0001H918.F,YahooChart,,,,0.128618,0.136061,0.132340,0.135224,StooqHistoryMissing
+Salesforce Inc,US79466L3024,EQUITY,CRM,"YahooChart,Stooq",0.332595,0.153511,-0.480976,0.952367,0.305314,0.252562,0.323688,

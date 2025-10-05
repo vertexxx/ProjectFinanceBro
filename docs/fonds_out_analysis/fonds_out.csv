@@ -1,0 +1,13 @@
+Name,ISIN,type,Ticker,DataSourcesUsed,YearReturn_2020,YearReturn_2021,YearReturn_2022,YearReturn_2023,YearReturn_2024,Avg5YReturn,VolatilityAnnualized,Notes
+Republik Österreich Government Bond,AT0000A2HLC4,BOND,AT0000A2HLC4.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+RWE AG,XS2412044641,BOND,XS2412044641.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Kingdom of Norway Government Bond,NO0012712506,BOND,NO0012712506.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Aegon N.V. (ISIN as provided,verify),NL0000120004,VRME,"YahooChart,Stooq",0.051095,-0.144205,-0.665706,-0.026087,0.214286,-0.114123,1.602485,
+Goldman Sachs Group Inc,XS2536502227,BOND,XS2536502227.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Volkswagen Leasing GmbH (corrected ISIN),XS2694872081,BOND,XS2694872081.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Bundesrepublik Deutschland,DE0001135432,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+EnBW (Energie Baden-Württemberg AG),XS1901055472,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+E.ON SE,XS2152899584,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+Commerzbank (corrected ISIN),DE000CZ40D55,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+Procter & Gamble Co,US742718FY05,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+Dresdner Funding Trust,XS0097772965,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed

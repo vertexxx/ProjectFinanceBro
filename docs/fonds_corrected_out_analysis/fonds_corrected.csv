@@ -1,0 +1,13 @@
+Name,ISIN,type,Ticker
+Republik Österreich Government Bond,AT0000A2HLC4,BOND,
+E.ON SE (Equity proxy for bond),XS2152899584,BOND,EOAN.DE
+RWE AG (Equity proxy for bond),XS2412044641,BOND,RWE.DE
+Aegon N.V. (Equity, not a bond),NL0000120004,EQUITY,AGN.AS
+EnBW (Equity proxy – thinly traded),XS1901055472,BOND,EBK.DE
+Bundesrepublik Deutschland (Gov bond – no free Yahoo price),DE0001135432,BOND,
+Kingdom of Norway Government Bond,NO0012712506,BOND,
+Commerzbank (Equity proxy),DE000CZ40D55,BOND,CBK.DE
+Goldman Sachs Group Inc (Equity proxy),XS2536502227,BOND,GS
+Procter & Gamble Co (Equity proxy),US742718FY05,BOND,PG
+Volkswagen Leasing GmbH (Equity proxy using VW pref shares),XS2694872081,BOND,VOW3.DE
+Dresdner Funding Trust (Defunct – expect no data),XS0097772965,BOND,

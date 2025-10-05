@@ -1,0 +1,13 @@
+Name,ISIN,type,Ticker,DataSourcesUsed,YearReturn_2020,YearReturn_2021,YearReturn_2022,YearReturn_2023,YearReturn_2024,Avg5YReturn,VolatilityAnnualized,Notes
+Republik Österreich Government Bond,AT0000A2HLC4,BOND,AT0000A2HLC4.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Kingdom of Norway Government Bond,NO0012712506,BOND,NO0012712506.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Commerzbank (Equity proxy),DE000CZ40D55,BOND,CBK.DE,YahooChart,-0.106701,0.279457,0.263911,0.208446,0.418839,0.212790,0.356418,StooqHistoryMissing
+RWE AG (Equity proxy for bond),XS2412044641,BOND,RWE.DE,YahooChart,0.282270,-0.006398,0.156241,-0.009858,-0.304623,0.023527,0.227744,StooqHistoryMissing
+E.ON SE (Equity proxy for bond),XS2152899584,BOND,EOAN.DE,YahooChart,-0.055243,0.331877,-0.241138,0.283270,-0.077523,0.048249,0.205056,StooqHistoryMissing
+EnBW (Equity proxy – thinly traded),XS1901055472,BOND,EBK.DE,YahooChart,0.087379,0.345133,0.144737,-0.112108,-0.234694,0.046089,0.318553,StooqHistoryMissing
+Aegon N.V. (Equity,not a bond),NL0000120004,EQUITY,,,,,,,,,NO_DATA;YahooHistoryMissing;StooqHistoryMissing
+Goldman Sachs Group Inc (Equity proxy),XS2536502227,BOND,GS,"YahooChart,Stooq",0.125427,0.443585,-0.131409,0.114234,0.474685,0.205304,0.324106,
+Volkswagen Leasing GmbH (Equity proxy using VW pref shares),XS2694872081,BOND,VOW3.DE,YahooChart,-0.155568,0.195313,-0.356084,-0.068644,-0.214564,-0.119909,0.275998,StooqHistoryMissing
+Procter & Gamble Co (Equity proxy),US742718FY05,BOND,PG,"YahooChart,Stooq",0.127461,0.186910,-0.069613,-0.033186,0.127135,0.067741,0.183337,
+Bundesrepublik Deutschland (Gov bond – no free Yahoo price),DE0001135432,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+Dresdner Funding Trust (Defunct – expect no data),XS0097772965,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
