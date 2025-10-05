@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Finance Analysis Dashboard</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f8f9fa; --tab:#e1e5ea; --tab-active:#ffffff; --border:#c7ccd1; --text:#222; --accent:#0d6efd; font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+    body { margin:0; background:var(--bg); color:var(--text); }
+    h1 { font-size:1.35rem; margin:1rem 1.25rem; }
+    nav { display:flex; flex-wrap:wrap; gap:.25rem; padding:.5rem .75rem .25rem; border-bottom:1px solid var(--border); background:linear-gradient(#fafbfc,#f1f3f5); }
+    .tab-btn { cursor:pointer; border:1px solid var(--border); background:var(--tab); padding:.55rem .9rem; border-radius:6px 6px 0 0; font-size:.9rem; font-weight:500; letter-spacing:.25px; user-select:none; position:relative; top:1px; }
+    .tab-btn[aria-selected="true"] { background:var(--tab-active); border-bottom:1px solid var(--tab-active); color:var(--accent); }
+    .panels { padding:1rem 1.25rem 2.5rem; }
+    .panel { display:none; animation:fade .25s ease-in; }
+    .panel.active { display:block; }
+    @keyframes fade { from { opacity:0 } to { opacity:1 } }
+    figure { margin:0 0 2rem; }
+    figure img { max-width:100%; height:auto; display:block; border:1px solid var(--border); border-radius:4px; background:#fff; }
+    figure figcaption { font-size:.8rem; margin-top:.4rem; color:#555; }
+    .downloads { margin-top:2rem; padding:1rem; border:1px solid var(--border); border-radius:8px; background:#fff; }
+    .downloads h3 { margin:.25rem 0 .75rem; font-size:1rem; }
+    .downloads a { display:inline-block; margin:.25rem .75rem .25rem 0; text-decoration:none; color:var(--accent); font-weight:500; }
+    footer { text-align:center; padding:2rem 1rem 3rem; font-size:.7rem; color:#666; }
+    @media (max-width:700px) { nav { overflow-x:auto; } .tab-btn { flex:1 0 auto; } }
+  </style>
+</head>
+<body>
+  <h1>Finance Analysis Dashboard</h1>
+  <nav role="tablist" aria-label="Datasets">
+    <button class="tab-btn" role="tab" aria-selected="true" aria-controls="panel-aktien_out_analysis" id="tab-aktien_out_analysis">Aktien</button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-etf_out_analysis" id="tab-etf_out_analysis">ETFs</button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-fonds_out_analysis" id="tab-fonds_out_analysis">Fonds</button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-fonds_corrected_out_analysis" id="tab-fonds_corrected_out_analysis">Fonds_corrected</button>
+  </nav>
+  <div class="panels">
+
+    <!-- Panel: Aktien -->
+    <section class="panel active" role="tabpanel" id="panel-aktien_out_analysis" aria-labelledby="tab-aktien_out_analysis" tabindex="0">
+      <figure>
+        <img src="aktien_out_analysis/plot_annual_returns_heatmap.png" alt="Annual Returns Heatmap (Aktien)">
+        <figcaption>Annual Returns Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="aktien_out_analysis/plot_avg5y_return_bar.png" alt="Average 5Y Return Bar (Aktien)">
+        <figcaption>Average 5 Year Return</figcaption>
+      </figure>
+      <figure>
+        <img src="aktien_out_analysis/plot_correlation_heatmap.png" alt="Correlation Heatmap (Aktien)">
+        <figcaption>Correlation Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="aktien_out_analysis/plot_risk_return_scatter.png" alt="Risk Return Scatter (Aktien)">
+        <figcaption>Risk vs Return Scatter</figcaption>
+      </figure>
+      <figure>
+        <img src="aktien_out_analysis/plot_volatility_bar.png" alt="Volatility Bar (Aktien)">
+        <figcaption>Volatility</figcaption>
+      </figure>
+      <div class="downloads">
+        <h3>Download RAW data</h3>
+        <a href="aktien_out_analysis/aktien.csv" download>aktien.csv</a>
+        <a href="aktien_out_analysis/aktien_out.csv" download>aktien_out.csv</a>
+      </div>
+    </section>
+
+    <!-- Panel: ETF -->
+    <section class="panel" role="tabpanel" id="panel-etf_out_analysis" aria-labelledby="tab-etf_out_analysis" tabindex="0">
+      <figure>
+        <img src="etf_out_analysis/plot_annual_returns_heatmap.png" alt="Annual Returns Heatmap (ETF)">
+        <figcaption>Annual Returns Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="etf_out_analysis/plot_avg5y_return_bar.png" alt="Average 5Y Return Bar (ETF)">
+        <figcaption>Average 5 Year Return</figcaption>
+      </figure>
+      <figure>
+        <img src="etf_out_analysis/plot_correlation_heatmap.png" alt="Correlation Heatmap (ETF)">
+        <figcaption>Correlation Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="etf_out_analysis/plot_risk_return_scatter.png" alt="Risk Return Scatter (ETF)">
+        <figcaption>Risk vs Return Scatter</figcaption>
+      </figure>
+      <figure>
+        <img src="etf_out_analysis/plot_volatility_bar.png" alt="Volatility Bar (ETF)">
+        <figcaption>Volatility</figcaption>
+      </figure>
+      <div class="downloads">
+        <h3>Download RAW data</h3>
+        <a href="etf_out_analysis/etf.csv" download>etf.csv</a>
+        <a href="etf_out_analysis/etf_out.csv" download>etf_out.csv</a>
+      </div>
+    </section>
+
+    <!-- Panel: Fonds -->
+    <section class="panel" role="tabpanel" id="panel-fonds_out_analysis" aria-labelledby="tab-fonds_out_analysis" tabindex="0">
+      <figure>
+        <img src="fonds_out_analysis/plot_annual_returns_heatmap.png" alt="Annual Returns Heatmap (Fonds)">
+        <figcaption>Annual Returns Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="fonds_out_analysis/plot_avg5y_return_bar.png" alt="Average 5Y Return Bar (Fonds)">
+        <figcaption>Average 5 Year Return</figcaption>
+      </figure>
+      <figure>
+        <img src="fonds_out_analysis/plot_correlation_heatmap.png" alt="Correlation Heatmap (Fonds)">
+        <figcaption>Correlation Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="fonds_out_analysis/plot_risk_return_scatter.png" alt="Risk Return Scatter (Fonds)">
+        <figcaption>Risk vs Return Scatter</figcaption>
+      </figure>
+      <figure>
+        <img src="fonds_out_analysis/plot_volatility_bar.png" alt="Volatility Bar (Fonds)">
+        <figcaption>Volatility</figcaption>
+      </figure>
+      <div class="downloads">
+        <h3>Download RAW data</h3>
+        <a href="fonds_out_analysis/fonds.csv" download>fonds.csv</a>
+        <a href="fonds_out_analysis/fonds_out.csv" download>fonds_out.csv</a>
+      </div>
+    </section>
+
+    <!-- Panel: Fonds Corrected -->
+    <section class="panel" role="tabpanel" id="panel-fonds_corrected_out_analysis" aria-labelledby="tab-fonds_corrected_out_analysis" tabindex="0">
+      <figure>
+        <img src="fonds_corrected_out_analysis/plot_annual_returns_heatmap.png" alt="Annual Returns Heatmap (Fonds Corrected)">
+        <figcaption>Annual Returns Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="fonds_corrected_out_analysis/plot_avg5y_return_bar.png" alt="Average 5Y Return Bar (Fonds Corrected)">
+        <figcaption>Average 5 Year Return</figcaption>
+      </figure>
+      <figure>
+        <img src="fonds_corrected_out_analysis/plot_correlation_heatmap.png" alt="Correlation Heatmap (Fonds Corrected)">
+        <figcaption>Correlation Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="fonds_corrected_out_analysis/plot_risk_return_scatter.png" alt="Risk Return Scatter (Fonds Corrected)">
+        <figcaption>Risk vs Return Scatter</figcaption>
+      </figure>
+      <figure>
+        <img src="fonds_corrected_out_analysis/plot_volatility_bar.png" alt="Volatility Bar (Fonds Corrected)">
+        <figcaption>Volatility</figcaption>
+      </figure>
+      <div class="downloads">
+        <h3>Download RAW data</h3>
+        <a href="fonds_corrected_out_analysis/fonds_corrected.csv" download>fonds_corrected.csv</a>
+        <a href="fonds_corrected_out_analysis/fonds_corrected_out.csv" download>fonds_corrected_out.csv</a>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    Generated dashboard. Use the tabs to switch datasets. All images are stacked for quick scroll review. CSV links provide direct downloads.
+  </footer>
+  <script>
+    (function(){
+      const tabs = Array.from(document.querySelectorAll('.tab-btn'));
+      const panels = Array.from(document.querySelectorAll('.panel'));
+      function activate(id){
+        tabs.forEach(t=>{ const sel = t.id===`tab-${id}`; t.setAttribute('aria-selected', sel); });
+        panels.forEach(p=>{ p.classList.toggle('active', p.id===`panel-${id}`); });
+        history.replaceState(null,'',`#${id}`);
+      }
+      tabs.forEach(btn=> btn.addEventListener('click', ()=> activate(btn.id.replace('tab-',''))));
+      const hash = location.hash.replace('#','');
+      if(hash){
+        const target = panels.find(p=>p.id===`panel-${hash}`);
+        if(target) activate(hash);
+      }
+      // Allow left/right keyboard nav
+      document.addEventListener('keydown', e=>{
+        if(e.target.closest('.tab-btn')){
+          const idx = tabs.indexOf(e.target);
+          if(e.key==='ArrowRight'){ e.preventDefault(); tabs[(idx+1)%tabs.length].focus(); tabs[(idx+1)%tabs.length].click(); }
+          if(e.key==='ArrowLeft'){ e.preventDefault(); tabs[(idx-1+tabs.length)%tabs.length].focus(); tabs[(idx-1+tabs.length)%tabs.length].click(); }
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
