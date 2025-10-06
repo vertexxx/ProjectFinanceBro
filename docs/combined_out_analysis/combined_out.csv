@@ -1,0 +1,35 @@
+Name,ISIN,type,Ticker,DataSourcesUsed,YearReturn_2020,YearReturn_2021,YearReturn_2022,YearReturn_2023,YearReturn_2024,Avg5YReturn,VolatilityAnnualized,Notes
+Barrick Gold Corporation,CA0679011084,EQUITY,,,,,,,,,,NO_DATA;TickerResolutionFailed
+Coinbase Global Inc Class A,US19260Q1076,EQUITY,COIN,"YahooChart,Stooq",,-0.231236,-0.859032,4.176191,0.582738,0.917165,0.831182,
+Alphabet Inc Class A,US02079K3059,EQUITY,1GOOGL.MI,YahooChart,0.176597,0.815151,-0.361920,0.490331,0.468197,0.317671,0.307116,StooqHistoryMissing
+LVMH Moet Hennessy Louis Vuitton SE,FR0000121014,EQUITY,MC.PA,YahooChart,0.218895,0.419645,-0.069904,0.056908,-0.121024,0.100904,0.312461,StooqHistoryMissing
+BASF SE,DE000BASF111,EQUITY,BAS.DE,YahooChart,-0.052277,-0.047927,-0.258709,0.016568,-0.134706,-0.095410,0.301038,StooqHistoryMissing
+Nestle S.A.,CH0038863350,EQUITY,NESN.SW,YahooChart,-0.019375,0.219989,-0.170871,-0.104756,-0.245922,-0.064187,0.185826,StooqHistoryMissing
+Medtronic plc,IE00BTN1Y115,EQUITY,MDT,"YahooChart,Stooq",0.022521,-0.108343,-0.267483,0.052645,-0.035732,-0.067278,0.214398,
+PayPal Holdings Inc,US70450Y1038,EQUITY,PYPL,"YahooChart,Stooq",1.114673,-0.186875,-0.634657,-0.176589,0.388708,0.101052,0.367657,
+Newmont Corporation,US6516391066,EQUITY,NEM,"YahooChart,Stooq",0.385701,-0.017894,-0.225976,-0.165188,-0.090198,-0.022711,0.381454,
+Pfizer Inc,US7170811035,EQUITY,PFE,"YahooChart,Stooq",-0.008744,0.604184,-0.095499,-0.438353,-0.107635,-0.009210,0.264727,
+Novo Nordisk A/S B,DK0062498333,EQUITY,NOVO-B.CO,YahooChart,0.097633,0.697460,0.316491,0.482166,-0.104576,0.297835,0.540313,StooqHistoryMissing
+PepsiCo Inc,US7134481081,EQUITY,PEP,"YahooChart,Stooq",0.091886,0.204062,0.044398,-0.053342,-0.120583,0.033284,0.216638,
+Multipartner Konwave Transition Metals,LU1022033721,FUND,0P000133OC.F,YahooChart,,,-0.185895,-0.130784,0.092235,-0.074815,0.290175,StooqHistoryMissing
+MFS Contrarian Value Fund,LU1985812830,FUND,0P0001I8N7.F,YahooChart,,,0.110352,0.195068,0.109595,0.138338,0.145814,StooqHistoryMissing
+iShares MSCI World,IE00B4L5Y983,ETF,IWDA.L,YahooChart,0.154150,0.228591,-0.184876,0.246744,0.203266,0.129575,0.157302,StooqHistoryMissing
+iShares STOXX Europe 600,DE0002635307,ETF,EXSA.DE,YahooChart,-0.042666,0.217561,-0.129981,0.110134,0.056454,0.042300,0.145955,StooqHistoryMissing
+Bakersteel Global Funds Precious Metals,LU0357130854,FUND,LU0357130854.SG,,,,,,,,,NO_DATA;YahooHistoryMissing;StooqHistoryMissing
+iShares MSCI China,IE00BJ5JPG56,ETF,IE00BJ5JPG56.SG,,,,,,,,,NO_DATA;YahooHistoryMissing;StooqHistoryMissing
+Squad Gallo Europa,DE000A2DMU74,FUND,C9D9.MU,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Structured Solutions Next Generation Resources Fund Fonds,LU1858159434,FUND,0P0001RTYY.F,YahooChart,,,,,-0.182686,-0.182686,0.264339,StooqHistoryMissing
+Redwheel Next Gen Emerg,LU1965309831,FUND,0P0001H918.F,YahooChart,,,,0.128618,0.136061,0.132340,0.135224,StooqHistoryMissing
+Salesforce Inc,US79466L3024,EQUITY,CRM,"YahooChart,Stooq",0.332595,0.153511,-0.480976,0.952367,0.305314,0.252562,0.323688,
+Republik Österreich Government Bond,AT0000A2HLC4,BOND,AT0000A2HLC4.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+RWE AG,XS2412044641,BOND,XS2412044641.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Kingdom of Norway Government Bond,NO0012712506,BOND,NO0012712506.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Aegon N.V. (ISIN as provided,verify),NL0000120004,VRME,"YahooChart,Stooq",0.051095,-0.144205,-0.665706,-0.026087,0.214286,-0.114123,1.602485,
+Goldman Sachs Group Inc,XS2536502227,BOND,XS2536502227.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Volkswagen Leasing GmbH (corrected ISIN),XS2694872081,BOND,XS2694872081.SG,YahooChart,,,,,,,,StooqHistoryMissing;AnnualReturnsUnavailable;VolatilityUnavailable
+Bundesrepublik Deutschland,DE0001135432,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+EnBW (Energie Baden-Württemberg AG),XS1901055472,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+E.ON SE,XS2152899584,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+Commerzbank (corrected ISIN),DE000CZ40D55,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+Procter & Gamble Co,US742718FY05,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed
+Dresdner Funding Trust,XS0097772965,BOND,,,,,,,,,,NO_DATA;TickerResolutionFailed

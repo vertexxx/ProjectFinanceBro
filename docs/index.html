@@ -32,6 +32,7 @@
     <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-etf_out_analysis" id="tab-etf_out_analysis">ETFs</button>
     <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-fonds_out_analysis" id="tab-fonds_out_analysis">Fonds</button>
     <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-fonds_corrected_out_analysis" id="tab-fonds_corrected_out_analysis">Fonds_corrected</button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-combined_out_analysis" id="tab-combined_out_analysis">Combined</button>
   </nav>
   <div class="panels">
 
@@ -148,6 +149,35 @@
         <h3>Download RAW data</h3>
         <a href="fonds_corrected_out_analysis/fonds_corrected.csv" download>fonds_corrected.csv</a>
         <a href="fonds_corrected_out_analysis/fonds_corrected_out.csv" download>fonds_corrected_out.csv</a>
+      </div>
+    </section>
+
+    <!-- Panel: Combined -->
+    <section class="panel" role="tabpanel" id="panel-combined_out_analysis" aria-labelledby="tab-combined_out_analysis" tabindex="0">
+      <figure>
+        <img src="combined_out_analysis/plot_annual_returns_heatmap.png" alt="Annual Returns Heatmap (Combined)">
+        <figcaption>Annual Returns Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="combined_out_analysis/plot_avg5y_return_bar.png" alt="Average 5Y Return Bar (Combined)">
+        <figcaption>Average 5 Year Return</figcaption>
+      </figure>
+      <figure>
+        <img src="combined_out_analysis/plot_correlation_heatmap.png" alt="Correlation Heatmap (Combined)">
+        <figcaption>Correlation Heatmap</figcaption>
+      </figure>
+      <figure>
+        <img src="combined_out_analysis/plot_risk_return_scatter.png" alt="Risk Return Scatter (Combined)">
+        <figcaption>Risk vs Return Scatter</figcaption>
+      </figure>
+      <figure>
+        <img src="combined_out_analysis/plot_volatility_bar.png" alt="Volatility Bar (Combined)">
+        <figcaption>Volatility</figcaption>
+      </figure>
+      <div class="downloads">
+        <h3>Download RAW data</h3>
+        <a href="combined_out_analysis/combined.csv" download>combined.csv</a>
+        <a href="combined_out_analysis/combined_out.csv" download>combined_out.csv</a>
       </div>
     </section>
 
